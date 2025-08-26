@@ -3,6 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const msg = document.getElementById("message");
 
   btn.addEventListener("click", () => {
-    msg.textContent = "Hello from JavaScript! 🎉";
+    alert("Hello from JavaScript! 🎉");
   });
 });
