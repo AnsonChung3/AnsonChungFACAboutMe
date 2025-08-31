@@ -94,3 +94,30 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+figure {
+  text-align: center;
+  align-items: center;
+}
+
+img {
+  max-width: 50vw;
+  height: auto;
+  display: inline;
+}
+
+a {
+  color: var(--colour-primary-light);
+}
+
+a:hover {
+  color: var(--colour-primary);
+}
+
+a:visited {
+  color: var(--colour-primary-dark);
+}
+
+a:active {
+  color: var(--colour-primary);
+}
