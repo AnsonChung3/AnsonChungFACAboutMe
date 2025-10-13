@@ -20,6 +20,8 @@ body {
   color: var(--colour-text);
   background: var(--colour-bg);
   padding: 1rem;
+  width: 75vw;
+  margin: 0 auto
 }
 
 header {
