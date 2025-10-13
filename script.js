@@ -1,4 +1,4 @@
-const techTools = ["JavaScript (ES6+)", "Python 3", "Vue.js (JS framework) + state management tool", "React", "HTTP request tools (Axios, aiohttp)", "HTML", "CSS", "Git", "Docker"];
+const techTools = ["JavaScript (ES6+)", "Python 3", "Vue.js + state management tool", "React", "HTTP request tools (Axios, aiohttp, fetch api)", "HTML", "CSS", "Git", "Docker"];
 const toolsList = document.getElementById("tech-profile");
 
 techTools.forEach(tool => {
