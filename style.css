@@ -62,6 +62,10 @@ ul {
   color: var(--colour-muted);
 }
 
+#tech-profile {
+    columns: 2
+}
+
 footer {
   margin-top: 2rem;
   padding-top: 1rem;
