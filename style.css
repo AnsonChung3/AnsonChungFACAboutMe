@@ -106,18 +106,19 @@ ul {
 footer {
   margin-top: 2rem;
   padding-top: 1rem;
-  border-top: 1px solid var(--colour-border);
+  border-top: 3px solid var(--colour-border);
   text-align: center;
   color: var(--colour-muted);
 }
 
 footer a {
-  color: var(--colour-rose);
-  text-decoration: none;
+  color: var(--colour-blue);
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 footer a:hover {
-  text-decoration: underline;
+  color: var(--colour-orange);
 }
 
 figure {
@@ -137,6 +138,8 @@ img {
 
 a {
   color: var(--colour-rose);
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 a:hover {
