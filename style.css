@@ -16,11 +16,17 @@ body {
 
 header {
   text-align: center;
-  margin: 2rem 0rem 2rem 0rem;
+  margin: 2rem 0;
+  background: var(--colour-surface);
+  border: 3px solid var(--colour-border);
+  border-radius: var(--radius);
+  padding: 1.5rem 1rem;
+  box-shadow: 4px 4px 0 var(--colour-brick);
 }
 
 header h1 {
-  color: var(--colour-rose);
+  color: var(--colour-terracotta);
+  margin: 0;
 }
 
 header p {
