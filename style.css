@@ -167,6 +167,7 @@ ul {
 
 #tech-list {
   columns: 2;
+  color: var(--colour-text);
 }
 
 footer {
