@@ -22,6 +22,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
   showSection('about');
 
+  function setupScrollFade(el) {
+    let timeout;
+    el.addEventListener('scroll', () => {
+      el.classList.add('is-scrolling');
+      clearTimeout(timeout);
+      timeout = setTimeout(() => el.classList.remove('is-scrolling'), 1000);
+    });
+  }
+
+  setupScrollFade(document.querySelector('.sidebar'));
+  setupScrollFade(document.querySelector('.content'));
+
   buttons.forEach(button => {
     if (button.classList.contains('nav-parent')) {
       button.addEventListener('click', () => {
