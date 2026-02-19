@@ -1,17 +1,20 @@
 # Work Session — 2026-02-19 — Two-Panel Navigation Layout
+
 Reference plan: `.claude/workplans/phase2.md`
 
 ---
 
 ## Task Checklist
 
-### 1 · HTML restructure
+### HTML restructure
 
-#### Layout wrapper
+#### Commit 1 Layout wrapper
+
 - [ ] Wrap `<main>` and new `<nav>` together in a `<div class="layout">` (inside `<body>`, between `<header>` and `<footer>`)
 - [ ] Leave `<header>` and `<footer>` outside `.layout` — they remain full-width
 
-#### Sidebar nav
+#### Commit 2 Sidebar nav
+
 - [ ] Add `<nav class="sidebar">` as first child of `.layout`
 - [ ] Add top-level `<button data-target="about">About Me</button>`
 - [ ] Add top-level `<button data-target="why-switch">Why do I want a switch</button>`
@@ -22,7 +25,8 @@ Reference plan: `.claude/workplans/phase2.md`
     - [ ] `<button data-target="snake">Snake mini game</button>`
     - [ ] `<button data-target="battleship">My favourite project!</button>`
 
-#### Content sections
+#### Commit 3 Content sections
+
 - [ ] Rename `<main>` to keep it as the content panel (add class `content`) or replace with `<div class="content">`
 - [ ] Wrap existing "About Anson" `<h2>` + `<div>` in `<section id="about">`
 - [ ] Create `<section id="why-switch">` — move body content out of `<details>` #1 (keep the paragraphs, drop `<details>`/`<summary>` wrappers)
@@ -32,7 +36,9 @@ Reference plan: `.claude/workplans/phase2.md`
 - [ ] Create `<section id="battleship">` — move body content out of `<details>` #4
 - [ ] Add a heading (`<h2>`) to each section matching its nav label, for context when displayed
 
-### 2 · CSS — layout
+### CSS — layout
+
+#### Commit 4 CSS layout
 
 - [ ] Add `.layout` rule: `display: grid; grid-template-columns: 2fr 8fr;`
 - [ ] Set `.layout` height: `calc(100vh - <measured header height> - <measured footer height>)` — adjust values after visual check
@@ -42,31 +48,37 @@ Reference plan: `.claude/workplans/phase2.md`
 - [ ] Remove or override `main { max-width: 80vw; margin: 0 auto; display: grid }` — grid on `main` no longer needed
 - [ ] Add `padding` to `.content` to maintain readability (match existing `main` padding)
 
-### 3 · CSS — sidebar button styling
+### CSS — sidebar button styling
 
-#### Button base
+#### Commit 5 Button base
+
 - [ ] `.sidebar button`: `display: block; width: 100%; text-align: left` — full-width flush blocks
 - [ ] `.sidebar button`: apply retro font, padding (`0.6rem 1rem`), and `font-weight: 700`
 - [ ] `.sidebar button`: set `border: none` and `border-radius: 0` — no visible dividing lines between adjacent buttons; buttons are flush with no gaps
 - [ ] `.sidebar button`: `background: var(--colour-surface); color: var(--colour-text)` — neutral default
 - [ ] `.sidebar button`: `cursor: pointer`
 
-#### Sidebar panel outer border
+#### Commit 6 Sidebar panel outer border
+
 - [ ] `.sidebar`: `border-right: 3px solid var(--colour-border)` — single retro border separating panels
 - [ ] `.sidebar`: `background: var(--colour-surface)`
 
-#### Hover and active nav states
+#### Commit 7 Hover and active nav states
+
 - [ ] `.sidebar button:hover`: `background: var(--colour-bg)` — subtle highlight
 - [ ] `.sidebar button.active`: accent background colour (e.g. `var(--colour-terracotta)`), `color: var(--colour-surface)`
 - [ ] `.sidebar button:active` (press): slight `translate(1px, 1px)` effect
 
-#### Sub-nav
+#### Commit 8 Sub-nav
+
 - [ ] `.sub-nav button`: `padding-left: 2rem` — indented relative to parent
 - [ ] `.sub-nav button`: slightly smaller font size or lighter weight to visually distinguish from top-level items
 - [ ] `.sub-nav.hidden`: `display: none`
 - [ ] `.nav-parent .indicator`: content `▸` default, `▾` when sub-nav open — use a `<span class="indicator">` inside the button
 
-### 4 · JS — navigation logic
+### JS — navigation logic
+
+#### Commit 9 Nav logic
 
 - [ ] Query all `[data-target]` buttons and all `.content section` elements on `DOMContentLoaded`
 - [ ] Write `showSection(id)` function: hides all sections, shows `section#<id>`, updates active class on nav buttons
@@ -78,7 +90,9 @@ Reference plan: `.claude/workplans/phase2.md`
   - [ ] Also call `showSection('portfolio')` so the placeholder content loads
 - [ ] Ensure the tech profile list (`script.js` `forEach`) still targets `#tech-profile` — verify it works after restructure
 
-### 5 · Cleanup
+### Cleanup
+
+#### Commit 10 Clean up
 
 - [ ] Remove `details`, `summary`, `summary::before`, `details[open] > summary::before`, `summary:active`, and `details:nth-of-type` rules from `style.css` — no longer used
 - [ ] Visual check: header and footer still full-width
@@ -90,6 +104,7 @@ Reference plan: `.claude/workplans/phase2.md`
 ---
 
 ## Notes
+
 - Work on the `claude-makeover` branch
 - Test each section visually in browser after each step before moving on
 - Portfolio section content (overview text) is intentionally deferred — placeholder is sufficient for now
