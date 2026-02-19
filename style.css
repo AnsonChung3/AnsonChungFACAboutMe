@@ -48,8 +48,7 @@ header p {
 .sidebar {
   overflow-x: hidden;
   overflow-y: auto;
-  border-right: 3px solid var(--colour-border);
-  background: var(--colour-surface);
+  padding: 0.5rem;
 }
 
 .content {
@@ -64,30 +63,41 @@ header p {
   font-family: var(--font-family);
   font-weight: 700;
   padding: 0.6rem 1rem;
+  margin-bottom: 0.4rem;
   border: none;
-  border-radius: 0;
-  background: var(--colour-surface);
-  color: var(--colour-text);
+  border-radius: 8px;
+  box-shadow: 3px 3px 0 var(--colour-brick);
+  color: var(--colour-surface);
   cursor: pointer;
 }
 
 .sidebar button:hover {
-  background: var(--colour-bg);
+  filter: brightness(0.9);
 }
 
 .sidebar button.active {
-  background: var(--colour-terracotta);
-  color: var(--colour-surface);
+  box-shadow: 1px 1px 0 var(--colour-brick), inset 0 0 0 3px rgba(0,0,0,0.25);
+  transform: translate(2px, 2px);
 }
 
 .sidebar button:active {
-  transform: translate(1px, 1px);
+  box-shadow: none;
+  transform: translate(3px, 3px);
 }
 
+[data-target="about"]      { background: var(--colour-terracotta); }
+[data-target="why-switch"] { background: var(--colour-orange); }
+[data-target="tech-profile"] { background: var(--colour-mustard); color: var(--colour-text); }
+[data-target="portfolio"]  { background: var(--colour-rose); }
+[data-target="snake"]      { background: var(--colour-blue); }
+[data-target="battleship"] { background: var(--colour-purple); }
+
 .sub-nav button {
-  padding-left: 2rem;
+  padding-left: 2.5rem;
   font-weight: 400;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  width: calc(100% - 1rem);
+  margin-left: 1rem;
 }
 
 .sub-nav.hidden {
@@ -153,8 +163,8 @@ ul {
   color: var(--colour-muted);
 }
 
-#tech-profile {
-    columns: 2
+#tech-list {
+  columns: 2;
 }
 
 footer {
@@ -178,16 +188,14 @@ footer a:hover {
 figure {
   text-align: center;
   align-items: center;
-  border: 3px solid var(--colour-border);
-  border-radius: var(--radius);
   padding: 0.75rem;
-  box-shadow: 4px 4px 0 var(--colour-brick);
 }
 
 img {
   max-width: 49%;
   height: auto;
   display: inline;
+  border-radius: var(--radius);
 }
 
 a {

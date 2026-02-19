@@ -1,5 +1,5 @@
 const techTools = ["JavaScript (ES6+)", "Python 3", "Vue.js + state management tool", "React", "HTTP request tools (Axios, aiohttp, fetch api)", "HTML", "CSS", "Git", "Docker"];
-const toolsList = document.getElementById("tech-profile");
+const toolsList = document.getElementById("tech-list");
 
 techTools.forEach(tool => {
   const li = document.createElement("li");
