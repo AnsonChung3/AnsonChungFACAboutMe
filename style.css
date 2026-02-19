@@ -201,7 +201,7 @@ img {
 }
 
 a {
-  color: var(--colour-rose);
+  color: var(--colour-blue);
   font-weight: bold;
   text-decoration: underline;
 }
