@@ -40,7 +40,10 @@ header p {
 }
 
 .sidebar {
+  overflow-x: hidden;
   overflow-y: auto;
+  border-right: 3px solid var(--colour-border);
+  background: var(--colour-surface);
 }
 
 .content {
@@ -60,6 +63,19 @@ header p {
   background: var(--colour-surface);
   color: var(--colour-text);
   cursor: pointer;
+}
+
+.sidebar button:hover {
+  background: var(--colour-bg);
+}
+
+.sidebar button.active {
+  background: var(--colour-terracotta);
+  color: var(--colour-surface);
+}
+
+.sidebar button:active {
+  transform: translate(1px, 1px);
 }
 
 details {
