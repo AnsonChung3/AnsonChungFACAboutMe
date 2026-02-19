@@ -20,7 +20,7 @@ header {
 }
 
 header h1 {
-  color: var(--colour-primary-light);
+  color: var(--colour-rose);
 }
 
 header p {
@@ -44,7 +44,7 @@ details {
 summary {
   font-weight: 600;
   cursor: pointer;
-  color: var(--colour-primary-light);
+  color: var(--colour-rose);
 }
 
 ul {
@@ -65,7 +65,7 @@ footer {
 }
 
 footer a {
-  color: var(--colour-primary-light);
+  color: var(--colour-rose);
   text-decoration: none;
 }
 
@@ -85,17 +85,17 @@ img {
 }
 
 a {
-  color: var(--colour-primary-light);
+  color: var(--colour-rose);
 }
 
 a:hover {
-  color: var(--colour-primary);
+  color: var(--colour-orange);
 }
 
 a:visited {
-  color: var(--colour-primary-dark);
+  color: var(--colour-brick);
 }
 
 a:active {
-  color: var(--colour-primary);
+  color: var(--colour-orange);
 }
