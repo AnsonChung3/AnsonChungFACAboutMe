@@ -54,4 +54,9 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
   });
+
+  document.querySelectorAll('a').forEach(a => {
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+  });
 });
