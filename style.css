@@ -10,7 +10,13 @@ body {
   color: var(--colour-text);
   background: var(--colour-bg);
   padding: 1rem;
-  margin: 0
+  max-width: 80vw;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 header {
@@ -35,8 +41,8 @@ header p {
 .layout {
   display: grid;
   grid-template-columns: 2fr 8fr;
-  /* adjust height after visual check — accounts for header + footer + body padding */
-  height: calc(100vh - 16rem);
+  flex: 1;
+  min-height: 0;
 }
 
 .sidebar {
