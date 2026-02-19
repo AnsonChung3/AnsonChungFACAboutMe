@@ -160,60 +160,6 @@ header p {
   display: none;
 }
 
-details {
-  background: var(--colour-surface);
-  border: 3px solid var(--colour-border);
-  border-radius: var(--radius);
-  padding: 0.5rem 0.75rem;
-  box-shadow: 4px 4px 0 var(--colour-brick);
-}
-
-summary {
-  display: block;
-  font-weight: 700;
-  cursor: pointer;
-  padding: 0.5rem 1rem;
-  border-radius: 10px;
-  color: var(--colour-surface);
-  box-shadow: 3px 3px 0 var(--colour-brick);
-  margin-bottom: 0.25rem;
-  user-select: none;
-}
-
-summary::-webkit-details-marker {
-  display: none;
-}
-
-summary::before {
-  content: "+ ";
-}
-
-details[open] > summary::before {
-  content: "– ";
-}
-
-summary:active {
-  box-shadow: 1px 1px 0 var(--colour-brick);
-  transform: translate(2px, 2px);
-}
-
-details:nth-of-type(1) > summary {
-  background: var(--colour-terracotta);
-}
-
-details:nth-of-type(2) > summary {
-  background: var(--colour-orange);
-}
-
-details:nth-of-type(3) > summary {
-  background: var(--colour-mustard);
-  color: var(--colour-text);
-}
-
-details:nth-of-type(4) > summary {
-  background: var(--colour-rose);
-}
-
 ul {
   margin: 0.5rem 0 0 1rem;
   color: var(--colour-muted);
