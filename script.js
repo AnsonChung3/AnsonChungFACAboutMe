@@ -7,6 +7,11 @@ techTools.forEach(tool => {
   toolsList.appendChild(li);
 });
 
+Object.entries(sectionContent).forEach(([id, html]) => {
+  const container = document.querySelector(`#${id} .section-text`);
+  if (container) container.innerHTML = html;
+});
+
 document.addEventListener('DOMContentLoaded', () => {
   const buttons = document.querySelectorAll('[data-target]');
   const sections = document.querySelectorAll('.content section');
