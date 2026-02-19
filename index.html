@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anson Chung</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap">
+    <link rel="stylesheet" href="colours.css">
     <link rel="stylesheet" href="style.css">
   </head>
 
@@ -13,97 +17,79 @@
       <h1>Welcome to My Website</h1>
     </header>
 
-    <main>
-      <h2>About Anson</h2>
-      <div>
-          <p>A self-taught junior software developer trying to start a career in tech. Specialising in JavaScript, with
-            good exposure to Python. Most of my past projects were built with Vue.js, and I've dipped into React and
-            React
-            Native to broaden my front-end toolkit. Comfortable using Git via the command line, and Docker to keep
-            environments consistent.</p>
-    
-          <p>
-            I moved to the UK just before Covid and used that time to reflect on what I wanted to do long term. Before
-            relocating, I worked in a shipping liner company that owned container vessels, which gave me exposure to large-scale
-            operations and problem solving. Since moving here, I worked in a care home for a while and have now moved on to
-            volunteering at the World Heritage Centre and Victoria Art Gallery in Bath, where I connect with visitors and share my knowledge of the
-            city.
-          </p>
-          <p>
-            Other than code, I enjoy knitting and sewing. They both allow
-            creative engineering. There are patterns to follow and foundamental techniques to learn, but also plenty of room to experiment
-            and design something unique. I find the process of working step by step towards a finished piece both practical
-            and rewarding.
-          </p>
+    <div class="layout">
+      <nav class="sidebar">
+        <button data-target="about">About Me</button>
+        <button data-target="why-switch">Why do I want a switch</button>
+        <button data-target="tech-profile">Tech Profile</button>
+        <div class="nav-group">
+          <button class="nav-parent" data-target="portfolio"><span class="indicator">▸</span> Portfolio</button>
+          <div class="sub-nav hidden">
+            <button data-target="snake">Snake mini game</button>
+            <button data-target="battleship">My favourite project!</button>
+          </div>
+        </div>
+      </nav>
+      <main class="content">
+
+        <section id="about">
+          <h2>About Anson</h2>
+          <div>
+            <div class="section-text"></div>
+            <figure>
+              <img src="img/wall_pocket_and_bats.jpg"
+                  alt="A storage solution I sewed for myself. And bonus knitted bats in one of the pockets.">
+              <figcaption>A storage solution I sewed for myself. Bonus knitted bats in one of the pockets.</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section id="why-switch">
+          <h2>Why do I want a switch</h2>
+          <div class="section-text"></div>
+        </section>
+
+        <section id="tech-profile">
+          <h2>Tech Profile</h2>
+          <ul id="tech-list"></ul>
+        </section>
+
+        <section id="portfolio">
+          <h2>Portfolio</h2>
+          <div class="section-text"></div>
+        </section>
+
+        <section id="snake">
+          <h2>Snake mini game</h2>
+          <div class="section-text"></div>
           <figure>
-            <img src="img/wall_pocket_and_bats.jpg"
-                alt="A storage solution I sewed for myself. And bonus knitted bats in one of the pockets.">
-            <figcaption>A storage solution I sewed for myself. Bonus knitted bats in one of the pockets.</figcaption>
+            <img src="img/snake_game.png" alt="A partial screen shot of the mini game Snake">
           </figure>
-      </div>
+        </section>
 
-      <details>
-        <summary>Why do I want a switch</summary>
-        <p>
-          I want to move into a career as a web developer because it offers both strong future prospects and the chance
-          to do work I genuinely enjoy.
-        </p>
-        <p>
-          Programming itself is fun, and there’s a real sense of satisfaction when something I’ve built finally works
-          after problem-solving and debugging. What makes it especially engaging is the freedom it allows. There are
-          often multiple ways to solve the same problem, each with its own benefit, which keeps the work fresh and
-          interesting.
-        </p>
-        <p>
-          Beyond that, I find programming intellectually stimulating, constantly challenging me to think creatively and
-          logically.
-        </p>
-        <p>
-          A career in web development feels like the perfect balance of stability, opportunity, and personal fulfilment.
-        </p>
+        <section id="battleship">
+          <h2>My favourite project!</h2>
+          <div class="section-text"></div>
 
-      </details>
+          <figure>
+            <img src="img/battleship_1.png" alt="A screenshot of player choosing their formation.">
+            <img src="img/battleship_2.png"
+                alt="A screenshot in the middle of the game showing one tile of a ship is damaged.">
+          </figure>
+        </section>
 
-      <details>
-        <summary>Tech Profile</summary>
-        <ul id="tech-profile"></ul>
-      </details>
-
-      <details>
-        <summary>Snake mini game</summary>
-        <p><a href="https://github.com/AnsonChung3/AnsonChungFACSnake.git">The classic mini game</a>. Very simple code,
-          very simple game play, <a href="https://ansonchung3.github.io/AnsonChungFACSnake/">but lots of fun</a>.</p>
-        <figure>
-          <img src="img/snake_game.png" alt="A partial screen shot of the mini game Snake">
-        </figure>
-      </details>
-      <details>
-        <summary>My favourite project!</summary>
-
-        <p><a href="https://github.com/AnsonChung3/Battleship">Battleship</a> is my favourite project so far.</p>
-
-        <p>I started to work on it when I wanted to start tackling my first reasonbly sized project. I experimented a
-          lot of new tools
-          with it. It was challenging to make but very satifying when I could share the link to my friends and they can
-          <a href="https://ansonchung3.github.io/Battleship/">play a game</a> with it.
-        </p>
-
-        <figure>
-          <img src="img/battleship_1.png" alt="A screenshot of player choosing their formation.">
-          <img src="img/battleship_2.png"
-              alt="A screenshot in the middle of the game showing one tile of a ship is damaged.">
-        </figure>
-      </details>
-    </main>
+      </main>
+    </div>
 
     <footer>
       <p>
         <a href="https://github.com/AnsonChung3/AnsonChungFACAboutMe">Github Repo for this page</a>
-        >>>
-        <a href="https://github.com/AnsonChung3">My Github Profile </a>
+        ·
+        <a href="https://github.com/AnsonChung3">My Github Profile</a>
       </p>
     </footer>
 
+    <script src="content.js"></script>
     <script src="script.js"></script>
   </body>
 
