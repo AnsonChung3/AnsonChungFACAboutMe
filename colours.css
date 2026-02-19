@@ -12,4 +12,12 @@
   --colour-mustard: #C9860C;
   --colour-rose: #B5566A;
   --colour-brick: #8B3A2A;
+
+  /* Additional accents (warm-toned) */
+  --colour-blue: #4A6FA5;
+  --colour-blue-dark: #2E4E7A;
+  --colour-green: #6B8C3A;
+  --colour-green-dark: #4A6320;
+  --colour-purple: #8C5A80;
+  --colour-purple-dark: #6B3A60;
 }
