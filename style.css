@@ -1,5 +1,5 @@
 :root {
-  --radius: 8px;
+  --radius: 18px;
   --font-family: "Courier Prime", "Courier New", Courier, monospace;
   --font-size: 1.2rem
 }
@@ -36,9 +36,10 @@ main {
 
 details {
   background: var(--colour-surface);
-  border: 1px solid var(--colour-border);
+  border: 3px solid var(--colour-border);
   border-radius: var(--radius);
   padding: 0.5rem 0.75rem;
+  box-shadow: 4px 4px 0 var(--colour-brick);
 }
 
 summary {
@@ -76,6 +77,10 @@ footer a:hover {
 figure {
   text-align: center;
   align-items: center;
+  border: 3px solid var(--colour-border);
+  border-radius: var(--radius);
+  padding: 0.75rem;
+  box-shadow: 4px 4px 0 var(--colour-brick);
 }
 
 img {
