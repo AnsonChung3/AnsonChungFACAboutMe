@@ -84,6 +84,16 @@ header p {
   transform: translate(1px, 1px);
 }
 
+.sub-nav button {
+  padding-left: 2rem;
+  font-weight: 400;
+  font-size: 0.95rem;
+}
+
+.sub-nav.hidden {
+  display: none;
+}
+
 details {
   background: var(--colour-surface);
   border: 3px solid var(--colour-border);
