@@ -1,1 +1,0 @@
-Work-planning $ARGUMENTS, create a workplan md file in first path with the current plan; and create a work session file in the second path with a granulated tasks checklist to implement all parts of workplan, chunk up by logical commit chunks.
