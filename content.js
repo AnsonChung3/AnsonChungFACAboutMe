@@ -8,7 +8,7 @@ const sectionContent = {
       relocating, I worked in a shipping liner company that owned container vessels, which gave me exposure to large-scale
       operations and problem solving. Since moving here, I worked in a care home for a while and have now moved on to
       volunteering at the World Heritage Centre and Victoria Art Gallery in Bath, where I connect with visitors and share
-      my knowledge of the city.
+      my knowledge of the city. Recently I have taken on my first comissioned project.
     </p>
     <p>
       Other than code, I enjoy knitting and sewing. They both allow creative engineering. There are patterns to follow
@@ -18,8 +18,7 @@ const sectionContent = {
   `,
 	'why-switch': `
     <p>
-      I want to move into a career as a web developer because it offers both strong future prospects and the chance
-      to do work I genuinely enjoy.
+      I want to move into a career as a software developer because it offers a chance to do what I enjoy as work.
     </p>
     <p>
       Programming itself is fun, and there's a real sense of satisfaction when something I've built finally works
@@ -32,7 +31,7 @@ const sectionContent = {
       logically.
     </p>
     <p>
-      A career in web development feels like the perfect balance of stability, opportunity, and personal fulfilment.
+      A career in software development feels like the perfect balance of opportunity and personal fulfilment.
     </p>
   `,
 	snake: `
