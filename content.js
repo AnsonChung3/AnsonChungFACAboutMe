@@ -35,7 +35,6 @@ const sectionContent = {
       A career in web development feels like the perfect balance of stability, opportunity, and personal fulfilment.
     </p>
   `,
-	portfolio: `<p>Portfolio overview coming soon.</p>`,
 	snake: `
     <p><a href="https://github.com/AnsonChung3/AnsonChungFACSnake.git">The classic mini game</a>. Very simple code,
       very simple game play, <a href="https://ansonchung3.github.io/AnsonChungFACSnake/">but lots of fun</a>.</p>
