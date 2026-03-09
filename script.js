@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 
 	document.querySelector('.nav-label').addEventListener('click', () => {
-		const firstSubItem = document.querySelector('.sub-nav [data-target]');
+		const firstSubItem = document.querySelector('.nav-label').closest('.nav-group').querySelector('.sub-nav [data-target]');
 		showSection(firstSubItem.dataset.target);
 	});
 
