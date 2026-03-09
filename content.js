@@ -1,8 +1,7 @@
 const sectionContent = {
-  about: `
+	about: `
     <p>A self-taught junior software developer trying to start a career in tech. Specialising in JavaScript, with
-      good exposure to Python. Most of my past projects were built with Vue.js, and I've dipped into React and
-      React Native to broaden my front-end toolkit. Comfortable using Git via the command line, and Docker to keep
+      good exposure to Python. Most of my past projects were built with Vue.js, and I've dipped into React to broaden my front-end toolkit. Comfortable using Git via the command line, and Docker to keep
       environments consistent.</p>
     <p>
       I moved to the UK just before Covid and used that time to reflect on what I wanted to do long term. Before
@@ -17,7 +16,7 @@ const sectionContent = {
       process of working step by step towards a finished piece both practical and rewarding.
     </p>
   `,
-  'why-switch': `
+	'why-switch': `
     <p>
       I want to move into a career as a web developer because it offers both strong future prospects and the chance
       to do work I genuinely enjoy.
@@ -36,12 +35,12 @@ const sectionContent = {
       A career in web development feels like the perfect balance of stability, opportunity, and personal fulfilment.
     </p>
   `,
-  portfolio: `<p>Portfolio overview coming soon.</p>`,
-  snake: `
+	portfolio: `<p>Portfolio overview coming soon.</p>`,
+	snake: `
     <p><a href="https://github.com/AnsonChung3/AnsonChungFACSnake.git">The classic mini game</a>. Very simple code,
       very simple game play, <a href="https://ansonchung3.github.io/AnsonChungFACSnake/">but lots of fun</a>.</p>
   `,
-  battleship: `
+	battleship: `
     <p><a href="https://github.com/AnsonChung3/Battleship">Battleship</a> is my favourite project so far.</p>
     <p>I started to work on it when I wanted to start tackling my first reasonbly sized project. I experimented a
       lot of new tools with it. It was challenging to make but very satifying when I could share the link to my
