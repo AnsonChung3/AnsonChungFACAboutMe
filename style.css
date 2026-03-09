@@ -145,6 +145,8 @@ header p {
 [data-target="why-switch"] { background: var(--colour-orange); }
 [data-target="tech-profile"] { background: var(--colour-mustard); color: var(--colour-text); }
 [data-target="portfolio"]  { background: var(--colour-rose); }
+
+.nav-label { background: var(--colour-rose); }
 [data-target="snake"]      { background: var(--colour-blue); }
 [data-target="battleship"] { background: var(--colour-purple); }
 
@@ -156,9 +158,6 @@ header p {
   margin-left: 1rem;
 }
 
-.sub-nav.hidden {
-  display: none;
-}
 
 ul {
   margin: 0.5rem 0 0 1rem;

@@ -40,19 +40,14 @@ document.addEventListener('DOMContentLoaded', () => {
   setupScrollFade(document.querySelector('.content'));
 
   buttons.forEach(button => {
-    if (button.classList.contains('nav-parent')) {
-      button.addEventListener('click', () => {
-        const subNav = button.nextElementSibling;
-        subNav.classList.toggle('hidden');
-        const indicator = button.querySelector('.indicator');
-        indicator.textContent = subNav.classList.contains('hidden') ? '▸' : '▾';
-        showSection('portfolio');
-      });
-    } else {
-      button.addEventListener('click', () => {
-        showSection(button.dataset.target);
-      });
-    }
+    button.addEventListener('click', () => {
+      showSection(button.dataset.target);
+    });
+  });
+
+  document.querySelector('.nav-label').addEventListener('click', () => {
+    const firstSubItem = document.querySelector('.sub-nav [data-target]');
+    showSection(firstSubItem.dataset.target);
   });
 
   document.querySelectorAll('a').forEach(a => {
