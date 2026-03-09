@@ -142,6 +142,7 @@ header p {
 }
 
 [data-target="about"]      { background: var(--colour-terracotta); }
+[data-target="contact"]    { background: var(--colour-green); }
 [data-target="why-switch"] { background: var(--colour-orange); }
 [data-target="tech-profile"] { background: var(--colour-mustard); color: var(--colour-text); }
 [data-target="portfolio"]  { background: var(--colour-rose); }
@@ -169,23 +170,6 @@ ul {
   color: var(--colour-text);
 }
 
-footer {
-  margin-top: 2rem;
-  padding-top: 1rem;
-  border-top: 3px solid var(--colour-border);
-  text-align: center;
-  color: var(--colour-muted);
-}
-
-footer a {
-  color: var(--colour-blue);
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-footer a:hover {
-  color: var(--colour-orange);
-}
 
 figure {
   text-align: center;

@@ -19,7 +19,12 @@
 
     <div class="layout">
       <nav class="sidebar">
-        <button data-target="about">About Me</button>
+        <div class="nav-group">
+          <button data-target="about">About Me</button>
+          <div class="sub-nav">
+            <button data-target="contact">Contact</button>
+          </div>
+        </div>
         <button data-target="why-switch">Why do I want a switch</button>
         <button data-target="tech-profile">Tech Profile</button>
         <div class="nav-group">
@@ -42,6 +47,12 @@
               <figcaption>A storage solution I sewed for myself. Bonus knitted bats in one of the pockets.</figcaption>
             </figure>
           </div>
+        </section>
+
+        <section id="contact">
+          <h2>Contact</h2>
+          <p><a href="https://github.com/AnsonChung3/AnsonChungFACAboutMe">Github Repo for this page</a></p>
+          <p><a href="https://github.com/AnsonChung3">My Github Profile</a></p>
         </section>
 
         <section id="why-switch">
@@ -81,13 +92,6 @@
       </main>
     </div>
 
-    <footer>
-      <p>
-        <a href="https://github.com/AnsonChung3/AnsonChungFACAboutMe">Github Repo for this page</a>
-        ·
-        <a href="https://github.com/AnsonChung3">My Github Profile</a>
-      </p>
-    </footer>
 
     <script src="content.js"></script>
     <script src="script.js"></script>
