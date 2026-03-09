@@ -1,100 +1,115 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Anson Chung</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap"
+		/>
+		<link rel="stylesheet" href="colours.css" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anson Chung</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap">
-    <link rel="stylesheet" href="colours.css">
-    <link rel="stylesheet" href="style.css">
-  </head>
-
-  <body>
-    <header>
+	<body>
+		<header>
 			<h1>Hi, I am Anson :)</h1>
-    </header>
+		</header>
 
-    <div class="layout">
-      <nav class="sidebar">
-        <div class="nav-group">
-          <button data-target="about">About Me</button>
-          <div class="sub-nav">
-            <button data-target="contact">Contact</button>
-          </div>
-        </div>
-        <button data-target="why-switch">Why do I want a switch</button>
-        <button data-target="tech-profile">Tech Profile</button>
-        <div class="nav-group">
-          <button class="nav-label">Portfolio</button>
-          <div class="sub-nav">
-            <button data-target="snake">Snake mini game</button>
-            <button data-target="battleship">My favourite project!</button>
-          </div>
-        </div>
-      </nav>
-      <main class="content">
-
-        <section id="about">
+		<div class="layout">
+			<nav class="sidebar">
+				<div class="nav-group">
+					<button data-target="about">About Me</button>
+					<div class="sub-nav">
+						<button data-target="contact">Contact</button>
+					</div>
+				</div>
+				<button data-target="why-switch">Why do I want a switch</button>
+				<button data-target="tech-profile">Tech Profile</button>
+				<div class="nav-group">
+					<button class="nav-label">Portfolio</button>
+					<div class="sub-nav">
+						<button data-target="snake">Snake mini game</button>
+						<button data-target="battleship">My favourite project!</button>
+					</div>
+				</div>
+			</nav>
+			<main class="content">
+				<section id="about">
 					<h2>About Anson Chung</h2>
-          <div>
-            <div class="section-text"></div>
-            <figure>
-              <img src="img/wall_pocket_and_bats.jpg"
-                  alt="A storage solution I sewed for myself. And bonus knitted bats in one of the pockets.">
-              <figcaption>A storage solution I sewed for myself. Bonus knitted bats in one of the pockets.</figcaption>
-            </figure>
-          </div>
-        </section>
+					<div>
+						<div class="section-text"></div>
+						<figure>
+							<img
+								src="img/wall_pocket_and_bats.jpg"
+								alt="A storage solution I sewed for myself. And bonus knitted bats in one of the pockets."
+							/>
+							<figcaption>
+								A storage solution I sewed for myself. Bonus knitted bats in one
+								of the pockets.
+							</figcaption>
+						</figure>
+					</div>
+				</section>
 
-        <section id="contact">
-          <h2>Contact</h2>
-          <p><a href="https://github.com/AnsonChung3/AnsonChungFACAboutMe">Github Repo for this page</a></p>
-          <p><a href="https://github.com/AnsonChung3">My Github Profile</a></p>
-        </section>
+				<section id="contact">
+					<h2>Contact</h2>
+					<p>
+						<a href="https://github.com/AnsonChung3/AnsonChungFACAboutMe"
+							>Github Repo for this page</a
+						>
+					</p>
+					<p><a href="https://github.com/AnsonChung3">My Github Profile</a></p>
+				</section>
 
-        <section id="why-switch">
-          <h2>Why do I want a switch</h2>
-          <div class="section-text"></div>
-        </section>
+				<section id="why-switch">
+					<h2>Why do I want a switch</h2>
+					<div class="section-text"></div>
+				</section>
 
-        <section id="tech-profile">
-          <h2>Tech Profile</h2>
-          <ul id="tech-list"></ul>
-        </section>
+				<section id="tech-profile">
+					<h2>Tech Profile</h2>
+					<ul id="tech-list"></ul>
+				</section>
 
-        <section id="portfolio">
-          <h2>Portfolio</h2>
-          <div class="section-text"></div>
-        </section>
+				<section id="portfolio">
+					<h2>Portfolio</h2>
+					<div class="section-text"></div>
+				</section>
 
-        <section id="snake">
-          <h2>Snake mini game</h2>
-          <div class="section-text"></div>
-          <figure>
-            <img src="img/snake_game.png" alt="A partial screen shot of the mini game Snake">
-          </figure>
-        </section>
+				<section id="snake">
+					<h2>Snake mini game</h2>
+					<div class="section-text"></div>
+					<figure>
+						<img
+							src="img/snake_game.png"
+							alt="A partial screen shot of the mini game Snake"
+						/>
+					</figure>
+				</section>
 
-        <section id="battleship">
-          <h2>My favourite project!</h2>
-          <div class="section-text"></div>
+				<section id="battleship">
+					<h2>My favourite project!</h2>
+					<div class="section-text"></div>
 
-          <figure>
-            <img src="img/battleship_1.png" alt="A screenshot of player choosing their formation.">
-            <img src="img/battleship_2.png"
-                alt="A screenshot in the middle of the game showing one tile of a ship is damaged.">
-          </figure>
-        </section>
+					<figure>
+						<img
+							src="img/battleship_1.png"
+							alt="A screenshot of player choosing their formation."
+						/>
+						<img
+							src="img/battleship_2.png"
+							alt="A screenshot in the middle of the game showing one tile of a ship is damaged."
+						/>
+					</figure>
+				</section>
+			</main>
+		</div>
 
-      </main>
-    </div>
-
-
-    <script src="content.js"></script>
-    <script src="script.js"></script>
-  </body>
-
+		<script src="content.js"></script>
+		<script src="script.js"></script>
+	</body>
 </html>
