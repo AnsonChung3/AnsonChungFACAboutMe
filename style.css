@@ -197,10 +197,13 @@ header p {
 	background: var(--colour-blue);
 }
 [data-target='snake'] {
-	background: var(--colour-blue-dark);
+	background: var(--colour-rose);
 }
 [data-target='battleship'] {
 	background: var(--colour-purple);
+}
+[data-target='routeCalculator'] {
+	background: var(--colour-purple-dark);
 }
 
 .sub-nav button {
