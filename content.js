@@ -111,3 +111,17 @@ const sectionContent = {
         </figure>
     `,
 };
+
+const techTools = [
+	'LLM-augmented development',
+	'JavaScript (ES6+)',
+	'Typescript',
+	'Python 3',
+	'Vue.js + state management tool',
+	'React',
+	'HTTP request tools (Axios, aiohttp, fetch api)',
+	'HTML',
+	'CSS',
+	'Git',
+	'Docker',
+];

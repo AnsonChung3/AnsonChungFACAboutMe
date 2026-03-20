@@ -1,16 +1,6 @@
-const techTools = [
-	'LLM-augmented development',
-	'JavaScript (ES6+)',
-	'Typescript',
-	'Python 3',
-	'Vue.js + state management tool',
-	'React',
-	'HTTP request tools (Axios, aiohttp, fetch api)',
-	'HTML',
-	'CSS',
-	'Git',
-	'Docker',
-];
+// content.js is loaded via the `script` tag in index.html line 133
+// hence any variable declared at top level in content.js (toolsList and sectionContent) becomes a property of `window`
+// and is accessible to all subsequent scripts, i.e. this file
 const toolsList = document.getElementById('tech-list');
 
 techTools.forEach((tool) => {
@@ -19,9 +9,6 @@ techTools.forEach((tool) => {
 	toolsList.appendChild(li);
 });
 
-// content.js is loaded via the `script` tag in indexe.html line 133
-// hence any variable declared at top level in content.js becomes a property of `window`
-// and is accessible to all subsequent scripts, i.e. this file
 Object.entries(sectionContent).forEach(([id, html]) => {
 	const container = document.querySelector(`#${id} .section-text`);
 	if (container) container.innerHTML = html;
