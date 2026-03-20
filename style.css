@@ -202,7 +202,7 @@ header p {
 [data-target='battleship'] {
 	background: var(--colour-purple);
 }
-[data-target='routeCalculator'] {
+[data-target='route-calculator'] {
 	background: var(--colour-purple-dark);
 }
 
