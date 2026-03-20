@@ -19,6 +19,9 @@ techTools.forEach((tool) => {
 	toolsList.appendChild(li);
 });
 
+// content.js is loaded via the `script` tag in indexe.html line 133
+// hence any variable declared at top level in content.js becomes a property of `window`
+// and is accessible to all subsequent scripts, i.e. this file
 Object.entries(sectionContent).forEach(([id, html]) => {
 	const container = document.querySelector(`#${id} .section-text`);
 	if (container) container.innerHTML = html;
@@ -39,6 +42,8 @@ document.addEventListener('DOMContentLoaded', () => {
 		});
 	}
 
+	// on DOM loaded, set all sections other than 'about'
+	// section hidden=true and removes 'active' from buttons
 	showSection('about');
 
 	function setupScrollFade(el) {
