@@ -176,6 +176,40 @@ const sectionContent = {
             />
         </figure>
 
+        <hr>
+
+        <h3>Chatroom</h3>
+        <p>
+            This is the more advanced project after Hangman. Similar set up (Python backendd runs in a container) but it is meant to be "interactive".
+        </p>
+        <p>
+            This one was really fun to build because I could open up 2 instances to see it myself that it's been connecting to the same backend, and hence the "chat".
+        </p>
+        <p>
+            Link to <a href="https://github.com/AnsonChung3/Chatroom">project repo</a>.
+        </p>
+        <figure>
+            <img
+                src="img/chatroom_start.jpg"
+                alt="Starting screen of Chatroom."
+            />
+            <img
+                src="img/chatroom_two_instances.jpg"
+                alt="Showing two separate instances. One in a regular browser, the other in an incognito browser."
+            />
+            <img
+                src="img/chatroom_join_new_chat.jpg"
+                alt="Joining an empty chatroom."
+            />
+            <img
+                src="img/chatroom_join_existing_chat.jpg"
+                alt="Joining an existing chatroom will fetch chat history. Both sessions get auto-update."
+            />
+            <img
+                src="img/chatroom_create_new_chatroom.jpg"
+                alt="Creating a new chatroom. Be the first to send a message!"
+            />
+        </figure>
     `,
 };
 
