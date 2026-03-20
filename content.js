@@ -10,11 +10,11 @@ const sectionContent = {
             relocating, I worked in a shipping liner company that owned container vessels, which gave me exposure to large-scale
             operations and problem solving. Since moving here, I worked in a care home for a while and have now moved on to
             volunteering at the World Heritage Centre and Victoria Art Gallery in Bath, where I connect with visitors and share
-            my knowledge of the city. Recently I have taken on my first comissioned project.
+            my knowledge of the city. Recently I have taken on my first commissioned project.
         </p>
         <p>
             Other than code, I enjoy knitting and sewing. They both allow creative engineering. There are patterns to follow
-            and foundamental techniques to learn, but also plenty of room to experiment and design something unique. I find the
+            and fundamental techniques to learn, but also plenty of room to experiment and design something unique. I find the
             process of working step by step towards a finished piece both practical and rewarding.
         </p>
         <figure>
@@ -76,8 +76,8 @@ const sectionContent = {
             <a href="https://github.com/AnsonChung3/Battleship">Battleship</a> is my favourite project so far.
         </p>
         <p>
-            I started to work on it when I wanted to start tackling my first reasonbly sized project. I experimented a
-            lot of new tools with it. It was challenging to make but very satifying when I could share the link to my
+            I started to work on it when I wanted to start tackling my first reasonably sized project. I experimented a
+            lot of new tools with it. It was challenging to make but very satisfying when I could share the link to my
             friends and they can <a href="https://ansonchung3.github.io/Battleship/">play a game</a> with it.
         </p>
         <figure>
@@ -118,7 +118,7 @@ const sectionContent = {
         </p>
         <p>
             It was a good practice project to include everything I've learned up to that point: building reusable custom components,
-            fetching real data from external API with a key, conditional rendering on the frontend, using an UI framework (Quasar) on top of a Javascript framework (Vue), using localStorage and etc.
+            fetching real data from an external API with a key, conditional rendering on the frontend, using a UI framework (Quasar) on top of a Javascript framework (Vue), using localStorage, etc.
             It was very satisfying when the game runs properly.
         </p>
         <p>
@@ -152,7 +152,7 @@ const sectionContent = {
             It was one of those 'I don't know why I am doing it, but I am doing it for funsies' projects.
         </p>
         <p>
-            The animation is as simple as the game itself: it's changing/rendering array.
+            The animation is as simple as the game itself: it's a changing, rendered array.
         </p>
         <p>
             Link to <a href="https://github.com/AnsonChung3/hangman/tree/main">project repo</a>.
@@ -164,7 +164,7 @@ const sectionContent = {
             />
             <img
                 src="img/hangman_wrong_guess.jpg"
-                alt="Showing wrong guesses and input sanitise"
+                alt="Showing wrong guesses and input sanitisation"
             />
             <img
                 src="img/hangman_almost_dead.jpg"
@@ -180,10 +180,10 @@ const sectionContent = {
 
         <h3>Chatroom</h3>
         <p>
-            This is the more advanced project after Hangman. Similar set up (Python backendd runs in a container) but it is meant to be "interactive".
+            This is the more advanced project after Hangman. Similar set up (Python backend runs in a container) but it is meant to be "interactive".
         </p>
         <p>
-            This one was really fun to build because I could open up 2 instances to see it myself that it's been connecting to the same backend, and hence the "chat".
+            This one was really fun to build because I could open up two instances to see for myself that they were connecting to the same backend, and hence the "chat".
         </p>
         <p>
             Link to <a href="https://github.com/AnsonChung3/Chatroom">project repo</a>.
