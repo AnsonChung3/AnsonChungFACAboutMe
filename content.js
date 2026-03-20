@@ -116,6 +116,15 @@ const sectionContent = {
             The first 'big' project when I first started coding. I set the project up when I was going through
             an online <a href="https://www.udemy.com/course/vuejs-2-the-complete-guide/">Vue course</a>. 
         </p>
+        <p>
+            It was a good practice project to include everything I've learned up to that point: building reusable custom components,
+            fetching real data from external API with a key, conditional rendering on the frontend, using an UI framework (Quasar) on top of a Javascript framework (Vue), using localStorage and etc.
+            It was very satisfying when the game runs properly.
+        </p>
+        <p>
+            Link to <a href="https://github.com/AnsonChung3/Reboot-Stock-Exchange">project repo</a> and <a href="https://ansonchung3.github.io/Reboot-Stock-Exchange/#/">live demo</a>.
+        </p>
+        <small>To try out the live demo, you need to register for a free API key from <a href="https://marketstack.com/">Marketstack</a> because this project is all about fetching real data.</small>
         <figure>
             <img
                 src="img/stock_exchange.jpg"
