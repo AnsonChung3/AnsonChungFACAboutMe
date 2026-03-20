@@ -111,7 +111,29 @@ const sectionContent = {
     `,
 	'older-projects': `
         <h2>Older Projects</h2>
-        <p>Placeholder text</p>
+        <h3>Stock Exchange</h3>
+        <p>
+            The first 'big' project when I first started coding. I set the project up when I was going through
+            an online <a href="https://www.udemy.com/course/vuejs-2-the-complete-guide/">Vue course</a>. 
+        </p>
+        <figure>
+            <img
+                src="img/stock_exchange.jpg"
+                alt="Main game screen, with Market and Portfolio tab. Account balance shown on the right. Added border around each stock for visibility."
+            />
+            <img
+                src="img/stock_exchange_modal.jpg"
+                alt="After pressing the 'Buy Max' button, a confirmation modal pops up."
+            />
+            <img
+                src="img/stock_exchange_bought.jpg"
+                alt="Showing the stock that is bought, with updated numbers in the account on top right."
+            />
+            <img
+                src="img/stock_exchange_end_screen.jpg"
+                alt="The end game report screen."
+            />
+        </figure>
     `,
 };
 

@@ -238,6 +238,7 @@ img {
 	display: inline;
 	border-radius: var(--radius);
 	vertical-align: top;
+	margin: 0 0 0.5rem 0;
 }
 
 a {
