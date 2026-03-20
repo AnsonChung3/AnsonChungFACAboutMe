@@ -110,6 +110,7 @@ const sectionContent = {
             />
         </figure>
     `,
+	'older-projects': `<p>Placeholder text</p>`,
 };
 
 const techTools = [
