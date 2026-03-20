@@ -97,7 +97,6 @@ const sectionContent = {
             My first commissioned project — and a lovely (tiny) milestone. 
             The client needs a simple interactive visualiser that maps connections between locations and sums their assigned values to see if they are qualified for some tiered award.
         </p>
-
         <p>
             It is still a work in progress, demoed here with the client's permission.
             I picked cathedrals and notable churches across England, Wales, and Scotland as the mock data — I enjoy visiting them myself.
