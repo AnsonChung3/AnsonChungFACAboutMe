@@ -1,6 +1,7 @@
 const sectionContent = {
 	about: `
         <h2>About Anson Chung</h2>
+
         <p>
             A self-taught junior software developer trying to start a career in tech. Specialising in JavaScript, with
             good exposure to Python. Most of my past projects were built with Vue.js, and I've dipped into React to broaden my front-end toolkit. Comfortable using Git via the command line, and Docker to keep
@@ -17,6 +18,7 @@ const sectionContent = {
             and fundamental techniques to learn, but also plenty of room to experiment and design something unique. I find the
             process of working step by step towards a finished piece both practical and rewarding.
         </p>
+
         <figure>
             <img
                 src="img/wall_pocket_and_bats.jpg"
@@ -30,6 +32,7 @@ const sectionContent = {
     `,
 	contact: `
         <h2>Contact</h2>
+
         <ul>
             <li><a href="https://github.com/AnsonChung3">Github Profile</a></li>
             <li>
@@ -39,6 +42,7 @@ const sectionContent = {
     `,
 	'why-switch': `
         <h2>Why do I want a switch</h2>
+
         <p>
             I want to move into a career as a software developer because it offers a chance to do what I enjoy as work.
         </p>
@@ -58,10 +62,12 @@ const sectionContent = {
     `,
 	snake: `
         <h2>Snake mini game</h2>
+
         <p>
             <a href="https://github.com/AnsonChung3/AnsonChungFACSnake.git">The classic mini game</a>. Very simple code,
             very simple game play, <a href="https://ansonchung3.github.io/AnsonChungFACSnake/">but lots of fun</a>.
         </p>
+
         <figure>
             <img src="img/snake_game_1.jpg" alt="A screen shot of the rules" />
             <img
@@ -72,6 +78,7 @@ const sectionContent = {
     `,
 	battleship: `
         <h2>My favourite project!</h2>
+
         <p>
             <a href="https://github.com/AnsonChung3/Battleship">Battleship</a> is my favourite project so far.
         </p>
@@ -80,6 +87,7 @@ const sectionContent = {
             lot of new tools with it. It was challenging to make but very satisfying when I could share the link to my
             friends and they can <a href="https://ansonchung3.github.io/Battleship/">play a game</a> with it.
         </p>
+
         <figure>
             <img
                 src="img/battleship_1.png"
@@ -93,6 +101,7 @@ const sectionContent = {
     `,
 	'route-calculator': `
         <h2>Route Calculator</h2>
+
         <p>
             My first commissioned project — and a lovely (tiny) milestone. 
             The client needs a simple interactive visualiser that maps connections between locations and sums their assigned values to see if they are qualified for some tiered award.
@@ -102,6 +111,7 @@ const sectionContent = {
             I picked cathedrals and notable churches across England, Wales, and Scotland as the mock data — I enjoy visiting them myself.
             It is a small project, but there is something genuinely satisfying about building something rooted in a real-world need.
         </p>
+
         <figure>
             <img
                 src="img/route-calculator.jpg"
@@ -111,6 +121,9 @@ const sectionContent = {
     `,
 	'older-projects': `
         <h2>Older Projects</h2>
+
+        <hr>
+        
         <h3>Stock Exchange</h3>
         <p>
             The first 'big' project when I first started coding. I set the project up when I was going through
