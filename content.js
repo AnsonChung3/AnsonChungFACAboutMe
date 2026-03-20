@@ -97,7 +97,6 @@ const sectionContent = {
             My first commissioned project — and a lovely (tiny) milestone. 
             The client needs a simple interactive visualiser that maps connections between locations and sums their assigned values to see if they are qualified for some tiered award.
         </p>
-
         <p>
             It is still a work in progress, demoed here with the client's permission.
             I picked cathedrals and notable churches across England, Wales, and Scotland as the mock data — I enjoy visiting them myself.
@@ -107,6 +106,108 @@ const sectionContent = {
             <img
                 src="img/route-calculator.jpg"
                 alt="A screenshot of Route Calculator demo with mock data about cathedrals in England, Wales, and Scotland."
+            />
+        </figure>
+    `,
+	'older-projects': `
+        <h2>Older Projects</h2>
+        <h3>Stock Exchange</h3>
+        <p>
+            The first 'big' project when I first started coding. I set the project up when I was going through
+            an online <a href="https://www.udemy.com/course/vuejs-2-the-complete-guide/">Vue course</a>. 
+        </p>
+        <p>
+            It was a good practice project to include everything I've learned up to that point: building reusable custom components,
+            fetching real data from external API with a key, conditional rendering on the frontend, using an UI framework (Quasar) on top of a Javascript framework (Vue), using localStorage and etc.
+            It was very satisfying when the game runs properly.
+        </p>
+        <p>
+            Link to <a href="https://github.com/AnsonChung3/Reboot-Stock-Exchange">project repo</a> and <a href="https://ansonchung3.github.io/Reboot-Stock-Exchange/#/">live demo</a>.
+        </p>
+        <small>To try out the live demo, you need to register for a free API key from <a href="https://marketstack.com/">Marketstack</a> because this project is all about fetching real data.</small>
+        <figure>
+            <img
+                src="img/stock_exchange.jpg"
+                alt="Main game screen, with Market and Portfolio tab. Account balance shown on the right. Added border around each stock for visibility."
+            />
+            <img
+                src="img/stock_exchange_modal.jpg"
+                alt="After pressing the 'Buy Max' button, a confirmation modal pops up."
+            />
+            <img
+                src="img/stock_exchange_bought.jpg"
+                alt="Showing the stock that is bought, with updated numbers in the account on top right."
+            />
+            <img
+                src="img/stock_exchange_end_screen.jpg"
+                alt="The end game report screen."
+            />
+        </figure>
+
+        <hr>
+
+        <h3>Hangman</h3>
+        <p>
+            Hangman was the learner project for Python the language, an app with a backend, and running things in a Docker container.
+            It was one of those 'I don't know why I am doing it, but I am doing it for funsies' projects.
+        </p>
+        <p>
+            The animation is as simple as the game itself: it's changing/rendering array.
+        </p>
+        <p>
+            Link to <a href="https://github.com/AnsonChung3/hangman/tree/main">project repo</a>.
+        </p>
+        <figure>
+            <img
+                src="img/hangman_start.jpg"
+                alt="Starting screen of Hangman"
+            />
+            <img
+                src="img/hangman_wrong_guess.jpg"
+                alt="Showing wrong guesses and input sanitise"
+            />
+            <img
+                src="img/hangman_almost_dead.jpg"
+                alt="One more guess left!"
+            />
+            <img
+                src="img/hangman_uh_oh.jpg"
+                alt="End game screen"
+            />
+        </figure>
+
+        <hr>
+
+        <h3>Chatroom</h3>
+        <p>
+            This is the more advanced project after Hangman. Similar set up (Python backendd runs in a container) but it is meant to be "interactive".
+        </p>
+        <p>
+            This one was really fun to build because I could open up 2 instances to see it myself that it's been connecting to the same backend, and hence the "chat".
+        </p>
+        <p>
+            Link to <a href="https://github.com/AnsonChung3/Chatroom">project repo</a>.
+        </p>
+        <figure>
+            <img
+                src="img/chatroom_start.jpg"
+                alt="Starting screen of Chatroom."
+            />
+            <img
+                src="img/chatroom_two_instances.jpg"
+                alt="Showing two separate instances. One in a regular browser, the other in an incognito browser."
+            />
+            <img
+                src="img/chatroom_join_new_chat.jpg"
+                alt="Joining an empty chatroom."
+            />
+            <img
+                src="img/chatroom_join_existing_chat.jpg"
+                alt="Joining an existing chatroom will fetch chat history. Both sessions get auto-update."
+            />
+            <img
+                src="img/chatroom_create_new_chatroom.jpg"
+                alt="Creating a new chatroom. Be the first to send a message!"
             />
         </figure>
     `,
