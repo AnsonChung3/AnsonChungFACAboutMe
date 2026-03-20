@@ -143,6 +143,39 @@ const sectionContent = {
                 alt="The end game report screen."
             />
         </figure>
+
+        <hr>
+
+        <h3>Hangman</h3>
+        <p>
+            Hangman was the learner project for Python the language, an app with a backend, and running things in a Docker container.
+            It was one of those 'I don't know why I am doing it, but I am doing it for funsies' projects.
+        </p>
+        <p>
+            The animation is as simple as the game itself: it's changing/rendering array.
+        </p>
+        <p>
+            Link to <a href="https://github.com/AnsonChung3/hangman/tree/main">project repo</a>.
+        </p>
+        <figure>
+            <img
+                src="img/hangman_start.jpg"
+                alt="Starting screen of Hangman"
+            />
+            <img
+                src="img/hangman_wrong_guess.jpg"
+                alt="Showing wrong guesses and input sanitise"
+            />
+            <img
+                src="img/hangman_almost_dead.jpg"
+                alt="One more guess left!"
+            />
+            <img
+                src="img/hangman_uh_oh.jpg"
+                alt="End game screen"
+            />
+        </figure>
+
     `,
 };
 
