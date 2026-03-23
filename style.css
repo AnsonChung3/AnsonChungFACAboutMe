@@ -181,32 +181,26 @@ header p {
 	background: var(--colour-terracotta);
 }
 [data-target='contact'] {
-	background: var(--colour-orange);
-}
-[data-target='why-switch'] {
 	background: var(--colour-mustard);
 }
 [data-target='tech-profile'] {
 	background: var(--colour-green);
 }
-[data-target='portfolio'] {
-	background: var(--colour-blue);
-}
 
 .nav-label {
 	background: var(--colour-blue);
-}
-[data-target='snake'] {
-	background: var(--colour-rose);
 }
 [data-target='battleship'] {
 	background: var(--colour-purple);
 }
 [data-target='route-calculator'] {
-	background: var(--colour-purple-dark);
+	background: var(--colour-terracotta);
+}
+[data-target='snake'] {
+	background: var(--colour-mustard);
 }
 [data-target='older-projects'] {
-	background: var(--colour-terracotta);
+	background: var(--colour-green);
 }
 
 .sub-nav button {
