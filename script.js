@@ -1,20 +1,21 @@
 // content.js is loaded via the `script` tag in index.html line 133
 // hence any variable declared at top level in content.js (toolsList and sectionContent) becomes a property of `window`
 // and is accessible to all subsequent scripts, i.e. this file
-const toolsList = document.getElementById('tech-list');
-
-techTools.forEach((tool) => {
-	const li = document.createElement('li');
-	li.textContent = tool;
-	toolsList.appendChild(li);
-});
-
-Object.entries(sectionContent).forEach(([id, html]) => {
-	const container = document.querySelector(`#${id} .section-text`);
-	if (container) container.innerHTML = html;
-});
 
 document.addEventListener('DOMContentLoaded', () => {
+	const toolsList = document.getElementById('tech-list');
+
+	techTools.forEach((tool) => {
+		const li = document.createElement('li');
+		li.textContent = tool;
+		toolsList.appendChild(li);
+	});
+
+	Object.entries(sectionContent).forEach(([id, html]) => {
+		const container = document.querySelector(`#${id} .section-text`);
+		if (container) container.innerHTML = html;
+	});
+
 	const buttons = document.querySelectorAll('[data-target]');
 	const sections = document.querySelectorAll('.content section');
 
