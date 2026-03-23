@@ -24,8 +24,8 @@ document.addEventListener('DOMContentLoaded', () => {
 			section.hidden = true;
 		});
 		document.getElementById(id).hidden = false;
-		buttons.forEach((btn) => btn.classList.remove('active'));
 		buttons.forEach((btn) => {
+			btn.classList.remove('active');
 			if (btn.dataset.target === id) btn.classList.add('active');
 		});
 	}
