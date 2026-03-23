@@ -40,26 +40,6 @@ const sectionContent = {
             </li>
         </ul>
     `,
-	'why-switch': `
-        <h2>Why do I want a switch</h2>
-
-        <p>
-            I want to move into a career as a software developer because it offers a chance to do what I enjoy as work.
-        </p>
-        <p>
-            Programming itself is fun, and there's a real sense of satisfaction when something I've built finally works
-            after problem-solving and debugging. What makes it especially engaging is the freedom it allows. There are
-            often multiple ways to solve the same problem, each with its own benefit, which keeps the work fresh and
-            interesting.
-        </p>
-        <p>
-            Beyond that, I find programming intellectually stimulating, constantly challenging me to think creatively and
-            logically.
-        </p>
-        <p>
-            A career in software development feels like the perfect balance of opportunity and personal fulfilment.
-        </p>
-    `,
 	snake: `
         <h2>Snake mini game</h2>
 
